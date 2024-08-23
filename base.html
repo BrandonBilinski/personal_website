@@ -29,36 +29,48 @@
         .container-t {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 1em;
+            /* padding: 1em; */
             display: flex;
+        }
+        .container-m {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1em;
         }
         .container-b {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 1em;
+            padding: 0;
         }
         .picture {
             height: 403.2px;
             width: auto;
             margin-right: 15px;
         }
-        .pd {
+        .pd, .writing {
             max-width: 500px;
         }
+        .gif {
+            margin-top: 150px;
+        }
         section {
-            margin: 2em 0;
+            margin: 0.5em 0;
         }
         h1, h2 {
             color: #479;
         }
         .about, .resume {
             padding: 1em;
-            display: inline-block;
+            display: inline;
             text-align: center;
             margin: 15px;
             flex: 1;
         }
-        .about, .resume, .contact {
+        .poem,.photography {
+            padding: 1em;
+            margin: 15px;
+        }
+        .about, .resume, .contact, .poem, .photography {
             background-color: #fff;
             padding: 1em;
             border-radius: 8px;
@@ -93,6 +105,8 @@
             <a href="#about">About</a>
             <a href="#resume">Resume</a>
             <a href="#contact">Contact</a>
+            <a href="#poem">Poetry</a>
+            <a href="#photography">Photos</a>
         </nav>
     </header>
     <div class="container-t">
@@ -100,12 +114,26 @@
             <h1>About Me</h1>
             <img src="C:\Users\15863\Desktop\GitHub\personal_website\embedded\IMG_9962.JPG" alt="Picture of me at Machu Piccu" class="picture">
             <div class="pd">
-                <p>Hello! I'm Brandon - a self-taught code enjoyer utilizing a personal website as another way to diversify my skills.</p>
+                <p>Hello! I'm Brandon <br> I'm a self-taught code enjoyer utilizing a personal website as another way to diversify my skills. <br> Through this project I hope to be able to showcase my ability to pick up new tech, display some cool projects I'm working on, and splash in some of my photography.</p>
+            </div>
+            <div class="gif">
+                <p>Heres where I'll put a cool 8bit gif that I've created</p>
             </div>
         </section>
         <section id="resume" class="resume">
             <h2>Resume</h2>
-            <iframe src="C:\Users\15863\Desktop\GitHub\personal_website\embedded\Bilinski_Resume.pdf" width="100%" height="600px" style="border: none;"></iframe>
+            <iframe src="C:\Users\15863\Desktop\GitHub\personal_website\embedded\Bilinski_Resume.pdf" width="100%" height="750px" style="border: none;"></iframe>
+        </section>
+    </div>
+    <div class="container-m">
+        <section id="poem" class="poem">
+            <h2>Latest Poem</h2>
+            <div class="writing">
+                <p>poem poem poem, poem poem poem, poem poem poem. Poem poem poem</p>
+            </div>
+        </section>
+        <section id="photography" class="photography">
+            <h2>Latest Photos</h2>
         </section>
     </div>
     <div class="container-b">

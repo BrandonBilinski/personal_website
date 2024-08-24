@@ -29,13 +29,14 @@
         .container-t {
             max-width: 1200px;
             margin: 0 auto;
+            margin-bottom: 0;
             /* padding: 1em; */
             display: flex;
         }
         .container-m {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 1em;
+            padding: 0.5em;
         }
         .container-b {
             max-width: 1200px;
@@ -43,11 +44,12 @@
             padding: 0;
         }
         .picture {
-            height: 403.2px;
+            height: 400px;
             width: auto;
             margin-right: 15px;
+            
         }
-        .pd, .writing {
+        .pd{
             max-width: 500px;
         }
         .gif {
@@ -76,6 +78,11 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .writing {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         .contact form {
             display: flex;
             flex-direction: column;
@@ -96,7 +103,7 @@
         }
         .contact button:hover {
             background-color: rgb(8, 170, 116);
-        }
+        }   
     </style>
 </head>
 <body>
@@ -112,7 +119,7 @@
     <div class="container-t">
         <section id="about" class="about">
             <h1>About Me</h1>
-            <img src="C:\Users\15863\Desktop\GitHub\personal_website\embedded\IMG_9962.JPG" alt="Picture of me at Machu Piccu" class="picture">
+            <img src="C:\Users\15863\Desktop\GitHub\personal_website\embedded\about_me.JPG" alt="Picture of me at Machu Piccu" class="picture">
             <div class="pd">
                 <p>Hello! I'm Brandon <br> I'm a self-taught code enjoyer utilizing a personal website as another way to diversify my skills. <br> Through this project I hope to be able to showcase my ability to pick up new tech, display some cool projects I'm working on, and splash in some of my photography.</p>
             </div>
@@ -129,11 +136,15 @@
         <section id="poem" class="poem">
             <h2>Latest Poem</h2>
             <div class="writing">
-                <p>poem poem poem, poem poem poem, poem poem poem. Poem poem poem</p>
+                <p><em>It feels scary, <br> Closing doors <br> and not having <br> the next one <br> to walk through <br></em></p>
             </div>
         </section>
         <section id="photography" class="photography">
             <h2>Latest Photos</h2>
+            <img src="embedded\macchupiccu.jpg" alt="Photo of Machu Piccu taken on film" class="picture">
+            <img src="embedded\bwstreet.jpg" alt="Black and White photo of a street in spring time" class="picture">
+            <img src="embedded\summer.jpg" alt="Photo of a dock in summertime with lense flare" class="picture">
+            <img src="embedded/colorpop.jpg" alt="Photo of Seattle's MoPoP taken from the Monorail station" class="picture">
         </section>
     </div>
     <div class="container-b">

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brandon's Personal Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            header {
+                background-color: #568;
+                color: #fff;
+                padding: 1em 0;
+                text-align: center;
+            }
+            nav {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                padding: 0.5em 1em;
+                display: inline-block;
+            }
+            .container {
+                max-width: 100%;
+                margin: 0 auto;
+                padding: 1em;
+            }
+            .about_resume {
+                display: flex;
+            }
+            .poem_photos {
+                display: inline;
+            }
+            .picture {
+                max-width: 20%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="poem">Latest Poem</a>
+                <a href="photos">Recent Photos</a>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="about_resume">
+                <section id="about" class="about">
+                    <h1>About Me</h1>
+                    <img src="embedded\about_me.JPG" alt="Picture of me at Machu Piccu" class="picture">
+                    <div class="pd">
+                        <p>Hello! I'm Brandon <br> I'm a self-taught code enjoyer utilizing a personal website as another way to diversify my skills. <br> Through this project I hope to be able to showcase my ability to pick up new tech, display some cool projects I'm working on, and splash in some of my photography.</p>
+                    </div>
+                    <div class="gif">
+                        <p>Heres where I'll put a cool 8bit gif that I've created</p>
+                    </div>
+                </section>
+                <section id="resume" class="resume">
+                    <h2>Resume</h2>
+                    <img src="embedded\resume.jpg" alt="Resume" class="resumejpg">
+                </section>
+            </div>
+            <div class="poem_photos">
+                <section id="poem" class="poem">
+                    <h2>Latest Poem</h2>
+                    <div class="writing">
+                        <p><em>It feels scary, <br> Closing doors <br> and not having <br> the next one <br> to walk through <br></em></p>
+                    </div>
+                </section>
+                <section id="photos" class="photos">
+                    <h2>Latest Photos</h2>
+                    <img src="embedded/macchupiccu.jpg" alt="Photo of macchu piccu take on film." class="picture">
+                    <img src="embedded\bwstreet.jpg" alt="Black and White photo of a street in spring time" class="picture">
+                    <img src="embedded\summer.jpg" alt="Photo of a dock in summertime with lense flare" class="picture">
+                    <img src="embedded/colorpop.jpg" alt="Photo of Seattle's MoPoP taken from the Monorail station" class="picture">
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

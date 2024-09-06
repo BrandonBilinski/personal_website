@@ -48,9 +48,25 @@
             .poem_photos {
                 display: inline;
             }
+            .writing {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             .r_picture {
-                max-width: 100%;
+                max-width: 50%;
                 height: auto;
+            }
+            #self_photo,#api-data {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .pd {
+                display: flex;
+                flex-direction: column;
+                margin: 5%;
             }
             .resumejpg {
                 max-width: 100%;
@@ -82,12 +98,17 @@
             <div class="about_resume">
                 <section id="about" class="about">
                     <h1>About Me</h1>
-                    <img src="embedded\about_me.JPG" alt="Picture of me at Machu Piccu" class="r_picture">
-                    <div class="pd">
-                        <p>Hello! I'm Brandon <br> I'm a self-taught code enjoyer utilizing a personal website as another way to diversify my skills. <br> Through this project I hope to be able to showcase my ability to pick up new tech, display some cool projects I'm working on, and splash in some of my photography.</p>
-                    </div>
-                    <div class="gif">
-                        <p>Heres where I'll put a cool 8bit gif that I've created</p>
+                    <div id="self_photo">
+                        <img src="embedded\about_me.JPG" alt="Picture of me at Machu Piccu" class="r_picture">
+                        <div class="pd">
+                            <p>Hello! I'm Brandon <br> I'm a self-taught code enjoyer utilizing a personal website as another way to diversify my skills. <br> Through this project I hope to be able to showcase my ability to pick up new tech, display some cool projects I'm working on, and splash in some of my photography.</p>
+                        </div>
+                        <!-- <div class="gif">
+                            <p>Heres where I'll put a cool 8bit gif that I've created</p>
+                        </div> -->
+                        <div id="api-data">
+                            <script src="script.js"></script>
+                        </div>
                     </div>
                 </section>
                 <section id="resume" class="resume">
